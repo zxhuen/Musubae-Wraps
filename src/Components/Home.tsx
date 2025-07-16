@@ -104,31 +104,36 @@ const Home = () => {
               View Products
             </motion.button>
           </a>
-          <motion.button
-            className="rounded-full px-4 py-2  text-[#3e1f00] ml-5 border-[#3e1f00] border-[2px]"
-            id="OrderNow"
-            initial={{
-              y: 50,
-              opacity: 0,
-              x: 50,
-            }}
-            animate={{
-              y: 0,
-              opacity: 1,
-              x: 0,
-            }}
-            transition={{
-              duration: 0.8,
-              type: "spring",
-            }}
-            whileHover={{
-              backgroundColor: "#3e1f00",
-              color: "white",
-              rotate: 370,
-            }}
+          <a
+            href="https://www.facebook.com/profile.php?id=61577387721319"
+            target="blank"
           >
-            Order Now
-          </motion.button>
+            <motion.button
+              className="rounded-full px-4 py-2  text-[#3e1f00] ml-5 border-[#3e1f00] border-[2px]"
+              id="OrderNow"
+              initial={{
+                y: 50,
+                opacity: 0,
+                x: 50,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+                x: 0,
+              }}
+              transition={{
+                duration: 0.8,
+                type: "spring",
+              }}
+              whileHover={{
+                backgroundColor: "#3e1f00",
+                color: "white",
+                rotate: 370,
+              }}
+            >
+              Order Now
+            </motion.button>
+          </a>
         </div>
       </div>
     </div>
