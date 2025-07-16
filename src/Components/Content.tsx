@@ -26,7 +26,7 @@ const Content = () => {
             type: "spring",
           }}
           viewport={{
-            once: false,
+            once: true,
             amount: 1,
           }}
         >
@@ -127,7 +127,6 @@ const Content = () => {
             </motion.p>
           </div>
 
-          {/* Second Photo */}
           <div className="text-center">
             <motion.div
               className="border-4 text-white rounded-xl shadow-lg overflow-hidden"
