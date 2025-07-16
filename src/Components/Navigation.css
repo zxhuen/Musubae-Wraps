@@ -1,0 +1,20 @@
+@import "tailwindcss";
+#test {
+    background-color: transparent;
+    color: #3e1f00;
+}
+
+@media (max-width: 640px) {
+    #test {
+        width: 100%;
+    }
+}
+
+@media (max-width: 545px) {
+    #buttondis {
+        display: none;
+    }
+    #test {
+        width: 100%;
+    }
+}

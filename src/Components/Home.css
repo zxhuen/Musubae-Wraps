@@ -1,0 +1,35 @@
+#MainHome {
+    background-color: transparent;
+}
+
+#Title {
+    color: #3e1f00;
+    font-weight: bold;
+    font-size: 4.2vw;
+}
+
+#desc {
+    color: #3e1f00;
+    font-size: 1.5vw;
+    font-family: cursive;
+}
+
+@media (max-width: 640px) {
+    #Title {
+        font-size: 9vw;
+    }
+    #desc {
+        font-size: 5vw;
+        margin-top: 0.2in;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    #Title {
+        font-size: 7vw;
+    }
+    #desc {
+        font-size: 4vw;
+        margin-top: 0.2in;
+    }
+}

@@ -1,0 +1,60 @@
+#ContentContainer {
+    background-color: transparent;
+}
+
+#Products {
+    font-size: 3vw;
+    color: white;
+}
+
+#addons {
+    font-size: 1.5vw;
+}
+
+#SpamMusubi {
+    font-size: 2vw;
+}
+
+#SpamMusubiDesc {
+    font-size: 1.2vw;
+}
+
+#price {
+    font-size: 2vw;
+}
+
+@media (max-width: 640px) {
+    #Products {
+        font-size: 15vw;
+    }
+    #addons {
+        font-size: 5vw;
+    }
+    #SpamMusubi {
+        font-size: 10vw;
+    }
+    #SpamMusubiDesc {
+        font-size: 5vw;
+    }
+    #price {
+        font-size: 12vw;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    #Products {
+        font-size: 10vw;
+    }
+    #addons {
+        font-size: 4vw;
+    }
+    #SpamMusubi {
+        font-size: 7vw;
+    }
+    #SpamMusubiDesc {
+        font-size: 3.5vw;
+    }
+    #price {
+        font-size: 12vw;
+    }
+}

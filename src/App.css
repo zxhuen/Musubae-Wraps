@@ -1,0 +1,13 @@
+@import "tailwindcss";
+html,
+body {
+    background-color: #e8d3ae;
+}
+
+#Content {
+    background-color: #3e1f00;
+}
+
+#foot {
+    background-color: #3e1f00;
+}

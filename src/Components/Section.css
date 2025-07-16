@@ -1,0 +1,20 @@
+#SectionContainer {
+    background-color: transparent;
+}
+
+#gallery {
+    color: #3e1f00;
+    font-family: cursive;
+}
+
+@media (max-width: 640px) {
+    #gallery {
+        font-size: 10vw;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    #gallery {
+        font-size: 8vw;
+    }
+}
